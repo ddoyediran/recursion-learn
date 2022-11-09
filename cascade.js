@@ -31,3 +31,15 @@ function cascade(n){
 }
 
 cascade(48);
+
+
+// Python solution
+def cascade(n):
+    if n < 10:
+        print(n)
+    else:
+        print(n)
+        cascade(n // 10)
+        print(n)
+
+cascade(486)
