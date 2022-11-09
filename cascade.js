@@ -20,6 +20,11 @@
 function cascade(n){
   // base case
   if(n < 10){
-    console.log(n)
+    console.log(n);
+  }
+  else{
+    console.log(n);
+    cascade(Math.floor(n / 10));
+    console.log(n);
   }
 }
