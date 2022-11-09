@@ -17,6 +17,7 @@
   4
 */
 
+// Javascript solution
 function cascade(n){
   // base case
   if(n < 10){
@@ -28,3 +29,5 @@ function cascade(n){
     console.log(n);
   }
 }
+
+cascade(48);
