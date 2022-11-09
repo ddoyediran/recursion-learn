@@ -48,12 +48,21 @@ cascadeTwo(45);
 
 
 // Python solution
-def cascade(n):
+def cascade_py(n):
     if n < 10:
         print(n)
     else:
         print(n)
-        cascade(n // 10)
+        cascade_py(n // 10)
         print(n)
 
-cascade(486)
+cascade_py(486)
+
+
+def cascade_py_2(n):
+    print(n)
+    if(n >= 10):
+        cascade_py_2(n // 10)
+        print(n)
+
+cascade_py_2(486)
