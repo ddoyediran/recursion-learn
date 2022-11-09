@@ -66,3 +66,21 @@ def cascade_py_2(n):
         print(n)
 
 cascade_py_2(486)
+
+
+// compute fibonacci of an integer
+function fib(n){
+  if(n === 0){
+    return 0;
+  }
+  
+  if(n === 1 || n === 2 ){
+    return 1;
+  }
+  
+  return fib(n - 2) + fib(n - 1)
+}
+
+console.log(fib(6)) // 8
+console.log(fib(4)) // 3
+console.log(fib(3)) // 2
