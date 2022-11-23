@@ -46,7 +46,6 @@ function cascadeTwo(n){
 
 cascadeTwo(45);
 
-
 // Python solution
 def cascade_py(n):
     if n < 10:
@@ -58,7 +57,6 @@ def cascade_py(n):
 
 cascade_py(486)
 
-
 def cascade_py_2(n):
     print(n)
     if(n >= 10):
@@ -66,7 +64,6 @@ def cascade_py_2(n):
         print(n)
 
 cascade_py_2(486)
-
 
 // compute fibonacci of an integer
 function fib(n){
